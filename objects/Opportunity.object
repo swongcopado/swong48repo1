@@ -223,6 +223,18 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Rollback_Demo_Field__c</fullName>
+        <description>This field is added to show that when rolling back, Copado can delete this field from the object and also update the Admin profile to which this Field has been assigned in FLS.</description>
+        <externalId>false</externalId>
+        <label>Rollback Demo Field</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>StageName</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
