@@ -10,11 +10,5 @@ public class CopadoTrialUtilities {
             System.debug('DONE: ' + u.Id);
         }
     }
-    
-    static public void RollbackDemoMethod() {
-        List<Opportunity> opps = new List<Opportunity>();
-        opps = [SELECT Id from Opportunity WHERE Amount > 50000];
-        // This method was added to show how a Rollback in Copado will simply update the Apex class by removing this section of the code.
-    }
 
 }
