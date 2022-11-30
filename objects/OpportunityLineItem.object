@@ -121,6 +121,15 @@
         <fullName>Discount</fullName>
     </fields>
     <fields>
+        <fullName>External_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>External ID</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ListPrice</fullName>
     </fields>
     <fields>
