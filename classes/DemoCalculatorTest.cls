@@ -9,6 +9,13 @@ public class DemoCalculatorTest {
         Integer actual = DemoCalculator.add(num1,num2);
         String msg = 'Expecting 15, Actual:' + String.valueOf(actual);
         System.assertEquals(expected, actual, msg);
+        
+        num1 = null;
+        num2 = null;
+        expected = 0;
+		actual = DemoCalculator.add(num1,num2);
+        msg = 'Expecting 0, Actual:' + String.valueOf(actual);
+        System.assertEquals(expected, actual, msg);        
     }
 
 }
